@@ -9,6 +9,10 @@ ATR and Bollinger-width ranks, then requires range expansion and a directional
 level break. Volume, candle body, acceptance, MTF, and trade-flow filters can
 qualify the release before ATR and structure-based risk is applied.
 
+## Logic at a glance
+
+![VolatilityCompressionBreakout strategy logic](https://raw.githubusercontent.com/TradeJS-Dev/TradeJS-Strategy-VolatilityCompressionBreakout/main/docs/strategy-logic.svg)
+
 ## Install
 
 ```bash
