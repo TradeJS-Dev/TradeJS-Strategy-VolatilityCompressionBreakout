@@ -2,6 +2,13 @@
 
 TradeJS strategy plugin providing `VolatilityCompressionBreakout`.
 
+## Strategy overview
+
+`VolatilityCompressionBreakout` looks for low-volatility compression through
+ATR and Bollinger-width ranks, then requires range expansion and a directional
+level break. Volume, candle body, acceptance, MTF, and trade-flow filters can
+qualify the release before ATR and structure-based risk is applied.
+
 ## Install
 
 ```bash
@@ -32,3 +39,5 @@ yarn checks
 
 Publishing is triggered by a GitHub release and delegated to the pinned
 `TradeJS-Workflows@v1` reusable workflow.
+
+Keywords: ai, claude, codex.
