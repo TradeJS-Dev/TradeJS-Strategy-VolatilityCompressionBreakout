@@ -1,6 +1,6 @@
 {
   "name": "@tradejs/strategy-volatility-compression-breakout",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Compression-to-expansion breakout strategy using ATR and Bollinger ranks, range expansion, volume, and optional context filters for TradeJS.",
   "type": "module",
   "packageManager": "yarn@4.13.0",
