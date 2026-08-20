@@ -13,6 +13,15 @@ qualify the release before ATR and structure-based risk is applied.
 
 ![VolatilityCompressionBreakout strategy logic](https://raw.githubusercontent.com/TradeJS-Dev/TradeJS-Strategy-VolatilityCompressionBreakout/main/docs/strategy-logic.svg)
 
+## Signal on an example chart
+
+The envelope narrows as ATR and Bollinger-width ranks compress; range expansion through the rolling high releases the setup when quality filters agree.
+
+![VolatilityCompressionBreakout signal on an illustrative ticker chart](https://raw.githubusercontent.com/TradeJS-Dev/TradeJS-Strategy-VolatilityCompressionBreakout/main/docs/signal-example.svg)
+
+The illustration is schematic, not market data. Exact thresholds, confirmation
+rules, and risk parameters come from the active TradeJS strategy config.
+
 ## Install
 
 ```bash
