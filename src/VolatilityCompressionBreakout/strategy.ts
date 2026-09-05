@@ -1,4 +1,4 @@
-import { createStrategyConfigParser } from "@tradejs/strategy-kit/config";
+import { createCostIsolatedStrategyConfigParser } from "@tradejs/strategy-kit/config";
 import type { ValidatedStrategyRegistryEntry } from "@tradejs/strategy-kit/config";
 import {
   VolatilityCompressionBreakoutConfig,
@@ -10,7 +10,7 @@ import { volatilityCompressionBreakoutManifest } from "./manifest";
 export const VolatilityCompressionBreakoutStrategyDefinition: ValidatedStrategyRegistryEntry<VolatilityCompressionBreakoutConfig> =
   {
     defaults: DEFAULT_CONFIG,
-    parseConfig: createStrategyConfigParser({
+    parseConfig: createCostIsolatedStrategyConfigParser({
       strategyName: "VolatilityCompressionBreakout",
       defaults: DEFAULT_CONFIG,
     }),
